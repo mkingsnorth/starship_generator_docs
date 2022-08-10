@@ -78,4 +78,7 @@ Don't hesitiate to contact us with any issues by clicking the 'Ask a Question' b
    quick_start
    parameters
    example_files
+   how_tos
+   troubleshooting
+   contact
 
