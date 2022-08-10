@@ -31,7 +31,7 @@ Quick Start
     .. image:: images/seed_change_viewport.gif
         :alt: Change Seed Object
 
-#. Note in the Outline view that a new *Starship Generator* **Collection** has been added to the scene, which contains the *Starship Generator* object and its hidden supporting components:
+#. Note in the Outline view that a new *Starship Generator* **Collection** has been added to the scene, which contains the *Starship Generator* object and its hidden supporting components. Adding more starships will add more collections:
 
     .. image:: images/starship_generator_collection.jpg
         :alt: Starship Generator Collection

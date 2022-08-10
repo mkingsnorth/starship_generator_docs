@@ -76,5 +76,6 @@ Don't hesitiate to contact us with any issues by clicking the 'Ask a Question' b
 
    installation
    quick_start
-
+   parameters
+   example_files
 
