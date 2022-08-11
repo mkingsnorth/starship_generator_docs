@@ -3,10 +3,19 @@ Troubleshooting
 ######################
 
 ********************************************************************************************************************************
-When I duplicate the Starship I get strange behaviours when I change the original
+When I duplicate the Starship it changes when I alter the original
 ********************************************************************************************************************************
 
-Because of the way the Starship Generator uses Drivers to manage its configuration, duplicating the object keeps the original drivers on the same object:  It is recomended that you instead *Add* a new Starship instead, using the standard *Add Menu*.
+.. image:: images/dupe_object.jpg
+
+Because of the way the Starship Generator uses Drivers to manage its configuration, duplicating the object by pressing *shift-d* or *ctrl-c* keeps the original drivers on the same object. This causes the original starship to essentially control the other:  It is recommended that you instead *Add* a new Starship instead, using the standard *Add Menu*.
+
+
+********************************************************************************************************************************
+Overly Smooth Mesh
+********************************************************************************************************************************
+
+TBD
 
 
 ********************************************************************************************************************************
@@ -15,7 +24,7 @@ Jagged Edges on the Pattern
 
 .. image:: images/jagged_panels.jpg
 
-The panelling is generated using procedural noise and can produce a jagged effect on close-up, especially on the corners of a model.  To reduce this, look at increasing the sibdivisions on the object: See the :ref:`Panelling section<Panel Subdivisions>` in the parameters documentation.
+The panelling is generated using procedural noise and can produce a jagged effect on close-up, especially on the corners of a model.  To reduce this, look at increasing the subdivisions on the object: See the :ref:`Panelling section<Panel Subdivisions>` in the parameters documentation.
 
 
 
@@ -32,7 +41,15 @@ Sometimes when generating a shape, the :ref:`Mirror modifier` will cause the ref
 When I try and add a new texture, this is not displayed on the mesh.
 ********************************************************************************************************************************
 
-This is because, at the moment, the *Starship Generator* cannot automatically create a UV Map.  To manually create one, you will need to collapse the modifiers and add one using a meythod like |UV Smart Project|.  See the How-To section on :ref:`creating a UV Map<Add a UV Map>`
+.. figure:: images/no_uvmap.jpg
+
+    By default, no UV Map is created.
+
+This is because, at the moment, the *Starship Generator* cannot automatically create a UV Map.  To manually create one, you will need to collapse the modifiers and add one using a method like |UV Smart Project|, or use the Texture Coordinate node and use the *Object* or *Generated* output if you are not exporting from Blender.  See the How-To section on :ref:`creating a UV Map<Add a UV Map>`
+
+.. figure:: images/no_uvmap_texcoordnode.jpg
+
+    The same set up but with a *Texture Coordinate* node introduced as an alternative.
 
 
 .. |UV Smart Project| raw:: html
