@@ -15,7 +15,7 @@ Because of the way the Starship Generator uses Drivers to manage its configurati
 Overly Smooth Mesh
 ********************************************************************************************************************************
 
-TBD
+TBD - either increase subdivisions or edge split.
 
 
 ********************************************************************************************************************************
