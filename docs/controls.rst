@@ -262,4 +262,8 @@ Object Subdivisions
    Object Subdivisions = 2
 
 
-To produce a smoother result in the shapes, subdivision is used.  Increasing this number will make the object look smoother at the expense of computation time.  It is not recommended to go above 3 subdivisions. 
+To produce a smoother result in the shapes, subdivision is used.  Increasing this number will make the object look smoother at the expense of computation time. 
+
+Note that changing the subdivisions will also change where individual objects are placed, producing an entirely different *Starship* object every time. 
+
+It is not recommended to go above 3 subdivisions as this will reduce performance. 
