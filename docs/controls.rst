@@ -167,7 +167,7 @@ This modifier scales and centers the generated *Starship* object along the Y axi
 UV Project modifier
 ************************************************************
 
-This adds a rudimentary UV Map.  The UV map created will contain overlaps and it is recommended to collapse the modifiers on an object and use a function such as |UV Smart Project|.
+This adds a rudimentary UV Map.  The UV map created will contain overlaps and it is recommended to collapse the modifiers on an object and use a function such as |UV Smart Project|, especially when exporting.
 
 .. |UV Smart Project| raw:: html
 
