@@ -268,12 +268,3 @@ Object Subdivisions
 
 
 To produce a smoother result in the shapes, subdivision is used.  Increasing this number will make the object look smoother at the expense of computation time.  It is not recommended to go above 3 subdivisions. 
-
-.. tip::
-    If you want to quickly cycle through seed numbers to find a shape you like, setting the *Object Subdivisions* to zero will speed up computation time. 
-
-
-   
-
-
-
