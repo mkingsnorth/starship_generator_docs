@@ -159,13 +159,6 @@ This is a standard Blender *Mirror* modifier made to make the Starship look symm
 Resize Modifier
 ************************************************************
 
-
-.. image:: images/starship_resize_modifier.jpg
-  :alt: Starship Generator parameters
-
-.. image:: images/resize_nodes_params.jpg
-  :alt: Starship Generator Parameters
-
 This modifier scales and centers the generated *Starship* object along the Y axis so that it is always at a set size.  
 
 * **Length**: The size of the *Starship* object in the Y axis.
