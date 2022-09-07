@@ -28,7 +28,7 @@ You can rectify this in two ways:
 
     .. image:: images/edge_split.jpg
 
-#. Activate *Auto Smoothing* on your *Big* Object so that this is passed on to the *Starship Generator* objecy. Go to the *Big* object's *Object Data Properties* tab, go to the *Normals* section, and tick *Auto Smooth*:
+#. Activate *Auto Smoothing* on your object. Go to the *Big* object's *Object Data Properties* tab, go to the *Normals* section, and tick *Auto Smooth*:
 
     .. image:: images/auto_smooth.jpg
 

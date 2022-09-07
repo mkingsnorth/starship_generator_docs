@@ -12,6 +12,8 @@ Click on the *Starship* object to select it, and navigate to the *Modifiers* tab
 Starship Controls Modifier
 ************************************************************
 
+.. image:: images/controls_seed.gif
+
 This sets any overall controls for the Starship.
 
 * **Seed:** This is the number that controls the random generation of the entire object.  Changing this number changes the entire starship configuration. It passes on the seed to all other modifiers through the *seed_attr* attribute.  
