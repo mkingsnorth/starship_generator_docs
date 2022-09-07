@@ -3,16 +3,18 @@ How Tos
 ######################
 
 ****************************************************
+Apply all modifiers at once
+****************************************************
+
+With the *Starship* object selected, in the viewport right-click for the object context menu.  Select *Starship Generator -> Apply all Modifiers*.  All modifiers will then be applied, which can take some time to process.
+
+.. image:: images/apply_all_modifiers.jpg
+
+****************************************************
 Export to Unreal Engine or other applications
 ****************************************************
 
 Export the object and its procedural textures to another application such as Unreal Engine.
-
-****************************************************
-Add a UV Map
-****************************************************
-
-Collapse the modifiers on the object and add a UV Map using *UV Smart Project*
 
 ****************************************************
 Use Custom Objects

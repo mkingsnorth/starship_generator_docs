@@ -11,7 +11,7 @@ Quick Start
 
 #. Open Blender and :ref:`install<Installation>` the add-on if you haven't already.
 #. Start a new scene and delete the default cube, or open an existing scene.
-#. Add a *Starship* model through the standard *Add* menu in Blender. Access this menu either through the top of the 3D view or by pressing Shift+A:
+#. Add a *Starship* object through the standard *Add -> Mesh* menu in Blender. Access this menu either through the *Object* menu at the top of the 3D view or by pressing *Shift+A*. Select the *Starship* option:
 
     .. image:: images/add_starship_menu.jpg
         :alt: Add Menu
@@ -26,19 +26,19 @@ Quick Start
     .. image:: images/add_starship_menu_expand.jpg
         :alt: Menu Expand
 
-#. Change the seed number until you find a shape you might like.  You can always change this later.
+#. Change the seed number until you find a shape you might like.  Don't worry if this initial menu disappears when you click away: you can always change the seed value later by going to the :ref:`Starship Controls Modifier`.
 
     .. image:: images/seed_change_viewport.gif
         :alt: Change Seed Object
 
-#. Note in the Outline view that a new *Starship Generator* **Collection** has been added to the scene, which contains the *Starship Generator* object and its hidden supporting components. Adding more starships will add more collections:
+#. Note in the Outline view that a new *Starship Generator* **Collection** has been added to the scene, which contains the *Starship* object and its hidden supporting components. Adding more starships will add more collections:
 
     .. image:: images/starship_generator_collection.jpg
         :alt: Starship Generator Collection
 
-#. With the *Starship Generator* object selected, go to the *modifiers* tab where you can change paramteters:
+#. With the *Starship* object selected, go to the *modifiers* tab where you can change the :ref:`controls`:
 
-    .. image:: images/starship_modifier_panel.jpg
+    .. image:: images/starship_modifiers_screenshot.jpg
         :alt: Starship Generator Modifier Panel
 
 
