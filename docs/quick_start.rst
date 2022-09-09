@@ -2,13 +2,6 @@
 Quick Start
 #################
 
-|install_video|
-
-.. |install_video| raw:: html
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MT0buoHerHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 #. Open Blender and :ref:`install<Installation>` the add-on if you haven't already.
 #. Start a new scene and delete the default cube, or open an existing scene.
 #. Add a *Starship* object through the standard *Add -> Mesh* menu in Blender. Access this menu either through the *Object* menu at the top of the 3D view or by pressing *Shift+A*. Select the *Starship* option:

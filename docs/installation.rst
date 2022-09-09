@@ -2,14 +2,6 @@
 Installation
 #############
 
-
-|install_video|
-
-.. |install_video| raw:: html
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MT0buoHerHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 #. Go to *Edit* -> *Preferences*.
 #. Select the *Add-ons* tab on the left if it is not already.
 #. Select the *Install...* button along the top.
