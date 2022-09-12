@@ -41,7 +41,6 @@ How-to Videos
 * Use the built in dispacement material instead of 3D panels (See this video).
 * Export the model into other 3D applications such as Unreal Engine. See this video.
 * Use Blender's Remesh modifier to create a watertight model for 3D printing or sculpting. See this video.
-* Included in Downloads: Learn how the Generator Model was made using Blender.
 
 ---------------------------------
 Caveats
