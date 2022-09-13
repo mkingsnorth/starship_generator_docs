@@ -14,7 +14,7 @@ The Starship Generator
 What is the Starship Generator?
 ---------------------------------
 
-Add random scifi spaceships to your scene in |Blender| and export them to applications such as **Unreal Engine**.  For concept artists and game developers who wish to create background 3D models for use in art, animation, or games.
+Add random scifi spaceships to your scene in |Blender| and export them to applications such as **Unreal Engine**.  For concept artists and game developers who wish to create background 3D models for use in art, animation, games, or as a source of inspiration.
 
 .. |Blender| raw:: html
 
@@ -25,9 +25,9 @@ Features
 ---------------------------------
 
 * Simply add a *Starship* model to your scene from Blender's *Add -> Mesh* Menu.
-* Create different designs just by changing a single seed number.
+* Create different designs by changing a single seed number.
 * Customize the Geometry Nodes set up in Blender: no custom code.
-* Choose between panels added to the 3D model or an included Cycles displacement material.
+* Choose panels added to the 3D model or an included Cycles displacement material.
 * Change the material and increase or decrease object density.
 * Collapse all the modifiers for a regular 3D model.
 * Created with design theory in mind to ensure the shapes are visually appealing.
