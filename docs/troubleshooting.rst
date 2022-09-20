@@ -10,7 +10,9 @@ When I duplicate the Starship it changes when I alter the original
 
 .. image:: images/dupe_object.jpg
 
-Because of the way the Starship Generator uses Drivers to manage its configuration, duplicating the object by pressing *shift-d* or *ctrl-c* keeps the original drivers on the same object. This causes the original starship to essentially control the other:  It is recommended that you instead *Add* a new Starship instead, using the standard *Add* menu option.
+When duplicating the starship object in Blender, it is always best to simply go to the *Add* menu again and select *Mesh* then *Starship*. This cleanly creates a new Starship every time.  
+
+Because of the way the Starship Generator uses Drivers to manage its configuration, duplicating the object by pressing *shift-d* or *ctrl-c* keeps the original drivers on the same object. This causes the original starship to essentially control the other.
 
 
 ********************************************************************************************************************************
