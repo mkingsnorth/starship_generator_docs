@@ -8,6 +8,14 @@ Here are some common issues you may come across: do :ref:`get in touch<contact>`
 When I duplicate the Starship it changes when I alter the original
 ********************************************************************************************************************************
 
+|duplicating_video|
+
+.. |duplicating_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KL2peXsRvBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 .. image:: images/dupe_object.jpg
 
 When duplicating the starship object in Blender, it is always best to simply go to the *Add* menu again and select *Mesh* then *Starship*. This cleanly creates a new Starship every time.  
@@ -18,6 +26,15 @@ Because of the way the Starship Generator uses Drivers to manage its configurati
 ********************************************************************************************************************************
 Very Smooth Mesh
 ********************************************************************************************************************************
+
+|smoothing_video|
+
+.. |smoothing_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EcZPmeP5vx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 .. image:: images/smooth_ship.jpg
 
@@ -48,6 +65,15 @@ The panelling is generated using procedural noise and can produce a jagged effec
 ********************************************************************************************************************************
 Islands of disconnected shapes
 ********************************************************************************************************************************
+
+
+|islands_video|
+
+.. |islands_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zmAYJjOWFoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 .. image:: images/islands.jpg
 

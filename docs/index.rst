@@ -11,14 +11,26 @@ The Starship Generator
   :alt: Starship Generator at work
 
 ---------------------------------
-What is the Starship Generator?
+What is the |Starship Generator|?
 ---------------------------------
 
-Add random scifi spaceships to your scene in |Blender| and export them to applications such as **Unreal Engine**.  For concept artists and game developers who wish to create background 3D models for use in art, animation, games, or as a source of inspiration.
+
+|overview_video|
+
+.. |overview_video| raw:: html
+
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ZJXe_PzR4Gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+Add random scifi spaceships to your scene in |Blender| and export them to applications such as Unreal Engine.  For concept artists and game developers who wish to create background 3D models for use in art, animation, games, or as a source of inspiration.
 
 .. |Blender| raw:: html
 
    <a href="https://www.blender.org/" target="_blank">Blender</a>
+
+.. |Starship Generator| raw:: html
+
+   <a href="https://store.configurate.net/l/starship-generator" target="_blank">Starship Generator</a>
 
 ---------------------------------
 Features
@@ -37,19 +49,54 @@ Features
 How-to Videos
 ---------------------------------
 
-* Add your own objects. See this video.
-* Use the built in dispacement material instead of 3D panels (See this video).
-* Export the model into other 3D applications such as Unreal Engine. See this video.
-* Use Blender's Remesh modifier to create a watertight model for 3D printing or sculpting. See this video.
+|Full Video Playlist| featuring:
+
+
+
+.. |Full Video Playlist| raw:: html
+
+   <a href="https://youtube.com/playlist?list=PL6nzENCWkPwefcyBpUrAXB5tBzzZC2yc1" target="_blank">Full Video Playlist</a>
+
+* |Use the built in displacement material| instead of 3D panels.
+* |Export the model| into other 3D applications such as Unreal Engine. See this video.
+* |Add your own objects| instead of the built-in ones.
+* |Use the Blender Remesh modifier| to create a watertight model for 3D printing or sculpting. See this video.
+
+.. |Add your own objects| raw:: html
+
+   <a href="https://youtu.be/VtBm5XglIyM" target="_blank">Add your own objects</a>
+
+
+.. |Use the built in displacement material| raw:: html
+
+   <a href="https://youtu.be/-FDTCy_HFdE" target="_blank">Use the built in displacement material</a>
+   
+.. |Export the model| raw:: html
+
+   <a href="https://youtu.be/qpPGVm8Mo_k" target="_blank">Export the model</a>
+
+.. |Use the Blender Remesh modifier| raw:: html
+
+    <a href="https://youtu.be/s-eBHlwMZ-8" target="_blank">Use the Blender Remesh modifier</a>
+
 
 ---------------------------------
 Caveats
 ---------------------------------
 
-* The add-on can not create *any* type of spaceship imaginable; it is focused on creating ships similar to the *Sulaco* from Aliens or the *Rocinante* from The Expanse.
+* The add-on can not create *any* type of spaceship imaginable; it is focused on creating ships similar to the |Sulaco| from Aliens or the |Rocinante| from The Expanse.
 * Best used for medium/background shots unless further modelling and sculpting is applied.
 * Designed to be as fast as possible, but performance will vary from computer to computer when changing parameters.
 * May cause the need to spend hours clicking through the seed values just to see which designs you get.
+
+.. |Sulaco| raw:: html
+
+    <a href="https://avp.fandom.com/wiki/USS_Sulaco" target="_blank">Sulaco</a>
+
+.. |Rocinante| raw:: html
+
+    <a href="https://expanse.fandom.com/wiki/Rocinante_(TV)" target="_blank">Rocinante</a>
+
 
 ---------------------------------
 Use Royalty-Free
@@ -70,7 +117,6 @@ Don't hesitiate to contact us with any issues by clicking the 'Ask a Question' b
    quick_start
    controls
    how_tos
-   example_files
    troubleshooting
    contact
 
