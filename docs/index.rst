@@ -81,7 +81,7 @@ How-to Videos
 
 
 ---------------------------------
-Caveats
+Limitations
 ---------------------------------
 
 * The add-on can not create *any* type of spaceship imaginable; it is focused on creating ships similar to the |Sulaco| from Aliens or the |Rocinante| from The Expanse.
