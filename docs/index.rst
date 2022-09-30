@@ -11,7 +11,7 @@ The Starship Generator
   :alt: Starship Generator at work
 
 ---------------------------------
-What is the |Starship Generator|?
+What is the Starship Generator?
 ---------------------------------
 
 
