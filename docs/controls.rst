@@ -31,6 +31,18 @@ This sets any overall controls for the Starship.
 
         Doing this will allow you to control a modifier's randomness separately to other modifiers.  For instance, you may wish to control the *Panels* modifier separately.
 
+
+* **Min Scale**: Minimum Scale of the randomly generated objects.
+* **Max Scale**: Maximum Scale of the randomly generated objects.
+* **Min Extrusion**: Minimum Extrusions created in the generated objects.
+* **Max Extrusion**: Maximum Extrusions created in the generated objects.
+* **Min Taper**: Minimum Extrude Taper in the generated objects.
+* **Max Taper**: Maximum Extrude Taper in the generated objects.
+* **Object Octree Depth**: This changes the detail of the Remesh in the objects. Lower values are simpler objects.
+* **Object Subdivisions**: This controls number of subdivisions for the generated objects.
+* **Min SubD Crease**: This controls the minimum subdivision crease for the generated objects.
+* **Max SubD Crease**: This controls the maximum subdivision crease for the generated objects.
+
 ************************************************************
 Big/Medium/Small Objects Modifiers
 ************************************************************
@@ -60,7 +72,9 @@ This randomly selects objects from a specified collection, resizes them to a rel
 * **Density**: The amount of objects to be scattered across the surface.
 * **Min Scale**: The minimum scale of the objects relative to the big object.
 * **Max Scale**: The maxiumum scale of the objects relative to the big object.
-* **Random Rotate? (0/1)**: Whether to randomly rotate objects at 90 degree intervals along the *Y* axis.
+* **Min Offset**: This is the smallest offset from the big object face normal the object will be placed from.
+* **Max Offset**: This is the largest offset from the big object face normal the object will be placed from.
+* **Random Rotate Increment**: this will randomly rotate the objects at set intervals.
 
 ================================
 Small Objects Modifier
