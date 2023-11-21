@@ -16,6 +16,8 @@ Starship Controls Modifier
 
 This sets any overall controls for the Starship.
 
+.. note:: Some controls are for Blender 4 only and will not appear in older versions of Blender.
+
 * **Seed:** This is the number that controls the random generation of the entire object.  Changing this number changes the entire starship configuration. It passes on the seed to all other modifiers through the *seed_attr* attribute.  
 
     .. tip:: 
@@ -31,13 +33,18 @@ This sets any overall controls for the Starship.
 
         Doing this will allow you to control a modifier's randomness separately to other modifiers.  For instance, you may wish to control the *Panels* modifier separately.
 
-
+* **Show Wire**: Show the wireframe of the object in the viewport.
 * **Min Scale**: Minimum Scale of the randomly generated objects.
 * **Max Scale**: Maximum Scale of the randomly generated objects.
+* **Min No. Extrusions**: Minimum number of Face Extrusions created in the generated objects.
+* **Max No. Extrusions**: Maximum number of Face Extrusions created in the generated objects.
 * **Min Extrusion**: Minimum Extrusions created in the generated objects.
 * **Max Extrusion**: Maximum Extrusions created in the generated objects.
 * **Min Taper**: Minimum Extrude Taper in the generated objects.
 * **Max Taper**: Maximum Extrude Taper in the generated objects.
+* **Min Slide**: Minimum direction of Extruded Faces in the generated objects.
+* **Max Slide**: Maximum direction of Extruded Faces in the generated objects.
+* **Decimate Faces**: Whether to use the Decimate modifier to reduce face count.  This may be useful to be turned off when using :ref:`Displacement<Use Procedural Displacement for Panels>`.
 * **Object Octree Depth**: This changes the detail of the Remesh in the objects. Lower values are simpler objects.
 * **Object Subdivisions**: This controls number of subdivisions for the generated objects.
 * **Min SubD Crease**: This controls the minimum subdivision crease for the generated objects.
@@ -152,6 +159,18 @@ Materials Modifier
 This adds a base material to the objects at the first slot of the original objects.  This allows you to add other materials to the other material slots of any custom objects.
 
 * **Material**: Material to assign at material index 0.  A *Default Material* is applied which you can alter in Blender's *Shading* section, or you can change to another material.
+
+************************************************************
+Custom Mirror Modifier
+************************************************************
+
+.. note:: Blender 4 only.
+
+This modifier mirrors the object but at a random offset from the center mirrored axis.  This aims to create further variation in the shapes.
+
+* **Seed**: Random Seed associated with the random offset range.
+* **Min Offset**: The smallest possible offset from the center compared to the size of the object (0.0 = center, 1.0 = size of object in axis direction).
+* **Min Offset**: The largest possible offset from the center compared to the size of the object.
 
 ************************************************************
 Mirror modifier
