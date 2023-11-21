@@ -8,6 +8,8 @@ Controls
 
 Click on the *Starship* object to select it, and navigate to the *Modifiers* tab.  You'll see a set of modifiers that are used to generate the object.  Most are backed by Blender's |Geometry Nodes|. Key parameters are exposed in the UI for you to control:
 
+.. note:: Some controls are for Blender 4 only and will not appear in older versions of Blender.
+
 ************************************************************
 Starship Controls Modifier
 ************************************************************
@@ -15,8 +17,6 @@ Starship Controls Modifier
 .. image:: images/controls_seed.gif
 
 This sets any overall controls for the Starship.
-
-.. note:: Some controls are for Blender 4 only and will not appear in older versions of Blender.
 
 * **Seed:** This is the number that controls the random generation of the entire object.  Changing this number changes the entire starship configuration. It passes on the seed to all other modifiers through the *seed_attr* attribute.  
 
@@ -66,6 +66,7 @@ This randomly selects an object from a specified collection to be the biggest ob
 
 * **Collection**: Which collection of objects to randomly pick from.
 * **Seed**: The seed value used to randomly pick and scale an object.
+* **Random Rotate Increment**: this will randomly rotate the objects at set intervals.
 
 ================================
 Medium Objects Modifier
