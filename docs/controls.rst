@@ -99,7 +99,13 @@ Panels Modifier
 
 .. image:: images/panelling_effect.gif
 
-This adds a panelling effect to the surface of the contructed objects.  The panels are a combination of big, medium and small panels combined on top of each other to produce a varied effect. It is a basic version of the Panels modifier used in the Plating Generator.
+This adds a panelling effect to the surface of the contructed objects.  The panels are a combination of big, medium and small panels combined on top of each other to produce a varied effect. It is a basic version of the Panels modifier used in the |plating_generator|.
+
+
+.. |plating_generator| raw:: html
+
+   <a href="https://blendermarket.com/products/plating-generator" target="_blank">Plating Generator</a>
+
 .. note::
 
     When using custom object collections or material displacement, you will likely want to switch off this panelling effect.
