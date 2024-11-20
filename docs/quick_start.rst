@@ -6,12 +6,16 @@ Quick Start
 
 You can either:
 
-1. Open the *starship_generator* .blend file that comes alongside the add-on installation file and start there.  Remember to change to "Rendered" view in the top right of the main viewport.
+1. Open the *starship_generator* .blend file that comes alongside the add-on installation file and start by changing the *Master Seed* parameter on the *Starship Controls* modifier on the right hand panel of Blender.  Remember to change to *Rendered View* in the top right of the main viewport.
 
     .. image:: images/starship_gen_main_file.jpg
         :alt: Starship Generator Blend File
 
-2. Install the add-on to add the Starship to the *Add* menu and follow the steps below.
+2. To add a Starship to a scene using Blender's *Add* menu, follow the steps below.
+
+=================
+Using the Add-on
+=================
 
 |quickstart_video|
 
