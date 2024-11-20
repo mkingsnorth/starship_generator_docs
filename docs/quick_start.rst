@@ -3,6 +3,16 @@ Quick Start
 #################
 
 
+
+You can either:
+
+1. Open the *starship_generator* .blend file that comes alongside the add-on installation file and start there.  Remember to change to "Rendered" view in the top right of the main viewport.
+
+    .. image:: images/starship_gen_main_file.jpg
+        :alt: Starship Generator Blend File
+
+2. Install the add-on to add the Starship to the *Add* menu and follow the steps below.
+
 |quickstart_video|
 
 .. |quickstart_video| raw:: html
