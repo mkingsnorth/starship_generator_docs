@@ -99,17 +99,10 @@ Panels Modifier
 
 .. image:: images/panelling_effect.gif
 
-This adds a panelling effect to the surface of the contructed objects.  The panels are a combination of big, medium and small panels combined on top of each other to produce a varied effect. It uses 3D Voronoi Cell Noise to determine which faces are extruded.
-
+This adds a panelling effect to the surface of the contructed objects.  The panels are a combination of big, medium and small panels combined on top of each other to produce a varied effect. It is a basic version of the Panels modifier used in the Plating Generator.
 .. note::
 
     When using custom object collections or material displacement, you will likely want to switch off this panelling effect.
-
-* **Seed**: The seed value used to randomly generate different noise patterns.
-* **Subdivision Level**: In order to apply the panelling effect, the object faces need to be subdivided so there is enough information to work out the pattern.  Increasing this value will increase the accuracy and smoothess of panels at the expense of calculation time when changing the object.
-* **Panel Size**: This is the size of the panels.  Larger values actually result in smaller pattern details, where smaller values increase the overall size.
-* **Large Panel Height/Mid Panel Height/Micro Panel Height**: These parameters control the relative heights of big, medium and smaller panel areas.
-* **Panel Proportions**: This stretches the panels in the X, Y and Z axis.  A smaller Y value, for instance, will stretch the panelling effect in that direction.
 
 .. tip::
 
@@ -135,23 +128,28 @@ Booster Modifier
 
 .. image:: images/booster_object.jpg
 
-This optionally adds a booster object, randomly selected from a specified collection, and projects to to the back (or the front) of an object with controls to refine its position.
+This modifier 'slices' into the back (or front) of the starship to create a recessed hole for a glowing booster effect.  It also collapses the sliced faces to create a flat glowing object inside the recess.
 
+.. warning ::
 
-* **Seed**: Numerical value that controls the randomn selection of booster objects.
-* **Booster Objects**: Change the collection the booster objects are randomly picked from by changing the Booster Objects parameter.  
-* **Booster Scale**: Change the size of the booster by setting the Booster Scale parameter.
-* **Flip Booster? (0/1)**: You can flip the booster to either side of the Starship by changing the ‘Flip Booster’ parameter to 1 or  0.  
-* **Booster Offset X/Y/Z**: You can make further changes to the booster placement by changing the offset parameters, which transform the location of the booster after it has been projected.  Note if you change the X offset, you will get two boosters mirrored instead of just one.   
-* **Projection X/Z**: You can change the vertical (Z) and horisontal (X) position of the projection by changing the x and z parameters.   
+    As this modifier creates a 'hole' in the mesh, the starship won't be 'watertight'.  If using custom objects or adding a Remesh modifier, it is suggested to disable this modifier.
 
-.. tip::
+.. image:: images/starship_booster_mod.gif
 
-    .. image:: images/material_booster_slots.jpg
-        :width: 100%
+* **Booster Material**: The material to assign to the glowing booster object.
+* **Flip**: Flips the booster effect to the other end of the Starship.
+* **Cut Off**: How much to 'slice' into the object at the back to create a recess for the booster.
+* **Recess**: How far into the sliced object the flattened glowing booster will be placed.
+* **Merge Factor**: To flatten the glowing part of the booster object, the vertices are first merged together.  This defines the merge threshold.  
+* **Scale Factpr**: How large the booster object should be relative to the size of the recess created.
 
-    If creating your own booster object, assign any additional materials like glowing materials to materials slots other than the first slot of the booster object.
+************************************************************
+UV Map Modifier
+************************************************************
 
+This modifier creates a UV Map for the object.  
+
+* **Seam Angle**: UV seams are created based on the angle of the edges.
 
 ************************************************************
 Materials Modifier
